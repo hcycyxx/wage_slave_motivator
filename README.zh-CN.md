@@ -17,6 +17,8 @@ Rust + Tauri 2 + Vue 3 + TypeScript 桌面应用。实时显示当日工资，�
 
 需要 Node.js 22.12+、Rust stable 和 [Tauri 2 系统依赖](https://v2.tauri.app/start/prerequisites/)。Windows 需要 MSVC C++ Build Tools 与 WebView2。
 
+在 Windows 本机查看桌面版，双击 `打开牛马鼓励器.cmd`。仅查看浏览器界面，双击 `打开浏览器预览.cmd`。启动脚本会自行找到 Rust 工具链。
+
 ```sh
 npm ci
 npm run tauri dev

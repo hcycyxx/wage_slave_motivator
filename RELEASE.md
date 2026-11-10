@@ -16,7 +16,7 @@
 
 本版保留原有工作日程、发薪倒计时、专注时钟、中英文界面、系统托盘与迷你窗口。旧版配置会自动补上人民币显示与参考汇率，不重置薪资或日程。
 
-当前源码已完成前端类型检查、生产构建与 58 项前端测试。Windows 桌面包需要在安装 Rust stable、MSVC C++ Build Tools 与 Tauri 依赖的环境中构建；本目录尚未包含该构建产物。
+当前源码已完成前端类型检查、生产构建、58 项前端测试，以及桌面开发版的真实编译与启动验证；4 项 Rust 测试全部通过。需要分发的 Windows 安装包可在安装 Rust stable、MSVC C++ Build Tools 与 Tauri 依赖的环境中用 `npm run release:windows` 构建。
 
 English and Simplified Chinese now work throughout the dashboard, settings, focus timer, compact window, tray menu, notifications, and validation messages. Switch languages from the sidebar; changes apply immediately and survive restarts. System mode defaults to Chinese in Chinese locales and English elsewhere, including the `C` locale used by the AppImage catalog. Existing salary and schedule settings are preserved.
 
